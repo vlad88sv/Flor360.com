@@ -1,0 +1,3 @@
+<?php
+$c = 'SELECT * FROM '
+?>

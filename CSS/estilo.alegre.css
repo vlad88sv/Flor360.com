@@ -1,0 +1,13 @@
+body{background:url('../IMG/stock/fondo-gradiente.alegre.png') #FFFFFF top repeat !important;}
+h1{background-color:#FFF;color:#000;}
+h2 {background-color:#0094FF;color:#FFF;}
+
+#btn_comprar_ahora {background-color:#0094FF;}
+
+ul.dropdown, ul.dropdown li ul {background-color:#0094FF !important;}
+ul.dropdown li a, ul.dropdown li ul li a {color:white !important;}
+ul.dropdown li:hover {background-color:#007CD6;color:white;}
+
+
+div.categoria-elemento div.titulo {color:#0094FF;}
+.categoria-elemento-clic-aqui {background-color:#0094FF;color:#FFF;right:0px;}

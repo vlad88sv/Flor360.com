@@ -1,0 +1,5 @@
+<?php
+$serial = 'a:26:{s:12:"codigo_cupon";s:0:"";s:18:"cargos_adicionales";s:4:"0.00";s:8:"cantidad";s:1:"1";s:11:"transaccion";s:40:"2a5b81e9f183589329ab98577651fc46f07dc11d";s:8:"variedad";s:3:"234";s:14:"txt_tarjeta_de";s:24:"Karla Jeannette Castillo";s:19:"txt_correo_contacto";s:29:"jeannettecastillo28@gmail.com";s:22:"txt_telefono_remitente";s:8:"22508063";s:16:"txt_tarjeta_para";s:26:"Jose Antonio Bonilla Preza";s:25:"txt_telefono_destinatario";s:8:"22437780";s:7:"destino";s:4:"0.00";s:21:"txt_direccion_entrega";s:0:"";s:17:"txt_fecha_entrega";s:34:"Miércoles 19 de Diciembre de 2012";s:7:"anonimo";s:2:"si";s:18:"txt_tarjeta_cuerpo";s:0:"";s:5:"extra";a:2:{i:14;s:1:"1";i:11;s:1:"1";}s:9:"extra_esp";a:1:{i:16;s:11:"Cumpleaños";}s:17:"txt_usuario_notas";s:0:"";s:9:"tipo_pago";s:7:"tarjeta";s:20:"txt_nombre_t_credito";s:24:"Karla Jeannette Castillo";s:20:"txt_numero_t_credito";s:16:"4390930009242718";s:27:"txt_tarjeta_mes_vencimiento";s:1:"9";s:27:"txt_tarjeta_ano_vencimiento";s:4:"2019";s:12:"txt_cobrar_a";s:0:"";s:19:"txt_direccion_cobro";s:0:"";s:11:"btn_comprar";s:7:"Comprar";}';
+
+print_r(unserialize($serial));
+?>

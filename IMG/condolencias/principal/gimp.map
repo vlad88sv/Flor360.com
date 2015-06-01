@@ -1,0 +1,20 @@
+<img src="Sin nombre" width="932" height="418" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:Vladimir Hidalgo -->
+<area shape="poly" coords="75,197,116,141,109,95,80,85,60,105,37,91,13,107,9,138,34,163,56,178" alt="Arreglo de corazón" href="ver_1.html" />
+<area shape="poly" coords="56,178,56,183,36,194,16,198,3,287,93,280,105,328,130,288,216,230,173,147,137,129,116,148,91,190,76,210,62,195,60,212,60,214,61,220,62,192" alt="Arreglo de izquierda media" href="2.html" />
+<area shape="poly" coords="87,390,116,381,124,330,143,285,221,281,259,335,277,394,186,396" alt="imagen de izquierda abajo" href="2.html" />
+<area shape="poly" coords="232,206,191,175,184,115,209,66,249,45,302,51,349,95,361,141,344,169,273,180,274,183" alt="Corona de izquierda" href="3.html" />
+<area shape="poly" coords="392,152,392,83,361,72,363,34,393,26,426,0,456,18,448,38,477,53,477,82,450,90,432,155,410,166" alt="Cruz grande" href="4.html" />
+<area shape="poly" coords="422,349,396,360,428,385,488,375,471,344" alt="Cruz pequeña" href="5.html" />
+<area shape="poly" coords="579,119,581,119,637,183,588,224,437,208,378,184,405,158,441,164,453,108,506,88,558,87" alt="Arreglo de la derecha media" href="6.html" />
+<area shape="poly" coords="602,121,607,54,677,23,725,88,707,144,644,156,629,147,616,139" alt="Corona de la derecha" href="7.html" />
+<area shape="poly" coords="568,387,662,218,750,329,751,396" alt="Arreglo derecha abajo" href="8.html" />
+<area shape="poly" coords="763,299,698,257,720,182,753,170,801,222,823,250,813,261,813,260,812,259" alt="Arreglo penultimo derecha medio" href="9.html" />
+<area shape="poly" coords="793,212,751,168,750,86,846,20,902,27,928,113,930,221,885,280" alt="Arreglo derecha" href="10.html" />
+</map>

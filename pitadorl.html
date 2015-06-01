@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Don pito</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="/JS/jquery.js"></script>
+        <script type="text/javascript">
+
+            function buscar_nuevas_ordenes()
+            {
+                $.getJSON('chatajax?ref=vnc',{ajax:'verificar_nuevos_chats'}, function(data) {
+                    if (data.hay_nuevos == "si")
+                    {
+                        if(typeof(Storage) != "undefined") {
+                            if (new Date().getTime() > (localStorage.piopio || 0))
+                            {
+                                localStorage.piopio = (new Date().getTime() + 20000);
+                                $('#beep').get(0).play();
+                            }
+                        }
+                    }
+                });
+            }
+            window.setTimeout("buscar_nuevas_ordenes()", 1000);
+        </script>
+    </head>
+    <body>
+        <audio id="beep">
+            <source src="/SND/cash.mp3">
+        </audio>
+
+        pip!.
+    </body>
+</html>

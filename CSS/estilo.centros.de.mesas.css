@@ -1,0 +1,19 @@
+body{background:url('../IMG/stock/fondo-gradiente.centros.de.mesas.png') #f0f0b2 top repeat !important;}
+h1{background-color:#FFF;color:#000;}
+h2 {background-color:#f0f0b2;color:#000;}
+
+#imagen_contenedor{width:600px;height:400px;}
+#vitrina_imagen {width:610px;}
+#infoAdicionalContacto{width:auto;margin-left: 280px;}
+
+#btn_comprar_ahora {background-color:#CCC;}
+
+ul.dropdown{background-color:#f0f0b2;}
+ul.dropdown li:hover {background-color:#b2b185}
+ul.dropdown li a {color:black;}
+ul.dropdown li a:hover {color:black;}
+
+div.categoria-elemento div.titulo a {color:#b2b185;}
+.categoria-elemento-clic-aqui {background-color:#f0f0b2;color:#000;right:0px;}
+.categoria-elemento-foto {width:234px;height:157px;}
+.producto_similar{width:231px;height:143px;}

@@ -1,0 +1,36 @@
+body{background:url('../IMG/stock/fondo-valentine.png') #FFFFFF top repeat !important;}
+h1{background-color:#FFF;color:#af3a30;}
+h2 {background-color:#be2618;color:#FFF;}
+
+#btn_comprar_ahora {background-color:#af3a30;}
+
+ul.dropdown, ul.dropdown li ul {background-color:#be2618 !important;}
+ul.dropdown li a, ul.dropdown li ul li a {color:white !important;}
+ul.dropdown li:hover {background-color:#d8104b;color:white;}
+
+
+div.categoria-elemento div.titulo {color:#be2618;}
+.categoria-elemento-clic-aqui {background-color:#be2618;color:#FFF;right:0px;}
+
+
+.blob div.titulo
+{
+  background-color:#be2618;
+  color:#FFF;
+}
+
+.blob div.titulo:hover
+{
+  background-color:#d8104b;
+}
+
+
+.portada_info {
+    background:#be2618;
+    color:white;
+}
+
+.fondo_defecto {
+  background-color:#be2618;
+  color:white;
+}

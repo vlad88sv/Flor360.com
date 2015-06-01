@@ -1,0 +1,41 @@
+<h1>Tarjetas de crédito admitidas</h1>
+<p>Visa, Visa Electron, American Express, Carte Blanche, Diners Club, Discover, Enroute, JCB, Maestro, MasterCard, Solo, Switch y LaserCard.</p>
+<h1>Compras internacionales</h1>
+<p>Recibimos pedidos de cualquier parte del mundo: Estados Unidos, Francia, Chile, etc., el único requisito es poseer con una tarjeta válida internacionalmente.</p>
+<h1>Compras nacionales</h1>
+<p>Puede utilizar nuestro sitio web, realizar deposito a cuenta, pago contra-entrega, pago en nuestro kiosko en C.C. La Gran Vía, paso peatonal.</p>
+<p> </p>
+<h1>¿Deseas realizar la compra vía telefónica?</h1>
+<p>Realiza tu compra vía llamada telefónica al número <strong><?php echo PROY_TELEFONO_PRINCIPAL; ?></strong></p>
+<p>No olvides tener listos los siguientes datos:</p>
+<ul>
+<li>El código del producto que deseas comprar </li>
+<li>La dirección <strong>exacta</strong> de entrega</li>
+<li>La forma de cancelar el producto (contra-entrega, etc.)</li>
+</ul>
+<h1>¿Prefieres los depositos a cuenta?</h1>
+<p><img style="float: left; margin-right: 1em; border: initial none initial;" src="/IMG/stock/BAC.gif" alt="" /></p>
+<p><strong>Banco de America Central</strong><br />Número de cuenta: <strong>200721538</strong></p>
+<br />
+<p>Luego de realizar el deposito comuniquese al <?php echo PROY_TELEFONO_PRINCIPAL; ?> para hacer su pedido. Se le solicitará el número del deposito.</p>
+
+<hr />
+<h1>¿Como comprar?</h1>
+<h2>Paso 1</h2>
+<p>Seleccione la categoría de su interés</p>
+<img src="IMG/stock/i0.jpg" title="Paso 1 de Compra" alt="Infografía: paso 1 de compra" />
+<br /><br />
+<h2>Paso 2</h2>
+<p>Se le mostrará nuestro catalogo de productos relacionados a la categoría previamente seleccionada.</p>
+<img src="IMG/stock/i1.jpg" title="Paso 2 de Compra" alt="Infografía: paso 2 de compra" />
+<br /><br />
+<h2>Paso 3</h2>
+<p>Vea los detalles del arreglo seleccionado, si gusta comprarlo puede ingresar los datos de compra presionando el botón "Comprar"</p>
+<img src="IMG/stock/i2.jpg" title="Paso 3 de Compra" alt="Infografía: paso 3 de compra" />
+<br /><br />
+<h2>Paso 4</h2>
+<p>Llene el formulario de compra, evitando dejar algun campo en blanco, al terminar presione el botón "Comprar"</p>
+<img src="IMG/stock/i3.jpg" title="Paso 4 de Compra" alt="Infografía: paso 4 de compra" />
+
+<hr />
+<p>Ud. recibirá un correo confirmando que su pedido ha sido recibido, luego un correo donde le notificamos que ha sido facturado y finalmente un correo donde se le avisa que ha sido entregado</p>

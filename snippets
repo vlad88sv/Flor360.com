@@ -1,0 +1,74 @@
+ /*
+    unset($DATOS);
+    
+    $DATOS['codigo']  = mt_rand(1000,9999).genRandomString(4);
+    $DATOS['tipo']  = 'porcentaje';
+    $DATOS['precio'] = '0.00';
+    $DATOS['valor'] = '20.00';
+    $DATOS['codigo_producto'] = '0';
+    $DATOS['variedad'] = '0';
+    $DATOS['cantidad_usos'] = '1';
+    $DATOS['cantidad_usado'] = '0';
+    $DATOS['ilimitado'] = '0';
+    $DATOS['expiracion'] = '2013-03-31';
+    $DATOS['enviado_a'] = $f['correo'];
+    
+    $id_cupon = db_agregar_datos('flores_cupones', $DATOS);
+    
+    $asunto = 'Felices fiestas - cupón de descuento del 20% para envío de arreglos florales. ['.$DATOS['codigo'].']';
+    
+    $mensaje = '
+    <html>
+      <body bgcolor="#FFFFFF" text="#000000">
+        <p  style="text-align:center">
+        Apreciable cliente, deseandole felices fiestas y agradeciendole por su preferencia, floristería <b><u>FLOR360.com</u></b>, le brinda un descuento especial del 20% en arreglos florales.
+        </p>
+
+        <p>
+          Su código de descuento es: <font style="background-color:rgb(255,255,255)" color="#ff6666" style="text-decoration:underline;" size="4"><b>'.$DATOS['codigo'].'</b></font>
+            , para hacer valido su descuento elija el arreglo que desea comprar en nuestro sitio web <a href="https://flor360.com/?ref=correo12Dic">www.flor360.com</a>, continue presionando el botón "comprar" en el formulario de compra, luego introduzca su código de descuento y el sistema automáticamente actualizará el precio con el descuento.
+         </p>
+        
+        <div><br></div>
+          
+          
+        <p style="text-align:center">
+            O si lo prefiere llámenos al 2243-6017 y dígale su código de descuento al asesor que le tome la llamada.
+        </p>
+            
+        <div><br></div>
+            
+        <p style="text-align:center"><b>El cupón es válido para arreglos comprados entre hoy y el 31 de Marzo de 2013.</b></p>
+          
+
+          <div><br></div>
+          
+          <p style="text-align:center">Lo invitamos adem&aacute;s a conocer nuestro renovado sitio Web.</p>
+          
+          <div><br></div>
+          
+          <p style="text-align:center">
+            Le agradecemos su elección y le deseamos éxitos en el año 2013.
+          </p>
+          
+          <div><br></div>
+         
+          <p style="text-align:center">
+          <a href="https://flor360.com/?ref=correo12Dic"><font color="#000099"><u><b>IR A PAGINA WEB</b></u></font></a>
+          </p>
+          
+          <div><br></div>
+          
+          <p style="text-align:center"><a href="https://flor360.com/?ref=correo12Dic"><font color="#000099">Si no puedes ver esta imagen has <b><u>clic aquí</u></b></font></a></p>
+          
+          <p style="text-align:center">
+          <a href="https://flor360.com/?ref=correo12Dic">
+            <img alt="www.flor360.com" src="cid:arte" border="0" width="810" height="619" />
+          </a>
+          </p>
+      </body>';    
+    echo correoSMTP($f['correo'],$asunto,$mensaje,true, $extra);
+    
+    db_consultar("UPDATE `cuponclub` SET enviado=1 WHERE correo='".$f["correo"]."' LIMIT 1");
+    usleep(30000);
+     */

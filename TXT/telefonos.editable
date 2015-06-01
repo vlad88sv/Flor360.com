@@ -1,0 +1,1 @@
+<a href="<?php echo PROY_URL_NOSSL . (S_iniciado() ? 'finalizar' : 'iniciar'); ?>"><img src="<?php echo PROY_URL_ESTATICA; ?>IMG/portada/info_derecha.png" alt="Telefono de contacto de Flor360.com" /><br /></a>

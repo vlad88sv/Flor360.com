@@ -1,0 +1,187 @@
+.lib_puntoexpress #header{background:none repeat scroll 0 0 #3f3f3f;border-bottom:1px solid #1f1f1f;color:#fff;padding:17px}
+.lib_puntoexpress #footer{background:none repeat scroll 0 0 #3f3f3f;border-top:1px solid #1f1f1f;color:#fff;padding:17px}
+
+.lib_puntoexpress .pexButton{border:0;
+           border: none;
+           cursor: pointer;
+           background: url('http://desa.api-services.puntoxpress.com:8888/PEXTokenServices/img/PexButton.png');
+           background-size: 100%;
+           background-repeat:no-repeat;
+           display:inline-block;
+           vertical-align:middle}
+.lib_puntoexpress .right{float:right;line-height:5px}
+
+.lib_puntoexpress .pexStyle img{width:auto\9;height:auto;max-width:100%;vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}
+.lib_puntoexpress .pexStyle ul{list-style:none;margin-bottom:12px;padding:0}
+.lib_puntoexpress .pexStyle li{font:14px Georgia,Verdana;margin-bottom:4px;padding:8px 10px 9px;border:1px solid #ccc;background:#eee;cursor:pointer}
+.lib_puntoexpress .pexStyle li:hover{border:1px solid #bbb;background:#e3e3e3}
+
+.lib_puntoexpress .tbox{position:absolute;display:none;padding:14px 17px;z-index:900}
+.lib_puntoexpress .tinner{padding:15px;-moz-border-radius:5px;border-radius:5px;background:#fff url(http://desa.api-services.puntoxpress.com:8888/PEXTokenServices/img/preload.gif) no-repeat 50% 50%;border-right:1px solid #333;border-bottom:1px solid #333}
+.lib_puntoexpress .tmask{position:absolute;display:none;top:0;left:0;height:100%;width:100%;background:#000;z-index:800}
+.lib_puntoexpress #error{background:#ff6969;color:#fff;text-shadow:1px 1px #cf5454;border-right:1px solid #000;border-bottom:1px solid #000;padding:0}
+.lib_puntoexpress #error .tcontent{padding:10px 14px 11px;border:1px solid #ffb8b8;-moz-border-radius:5px;border-radius:5px}
+.lib_puntoexpress #success{background:#2ea125;color:#fff;text-shadow:1px 1px #1b6116;border-right:1px solid #000;border-bottom:1px solid #000;padding:10;-moz-border-radius:0;border-radius:0}
+.lib_puntoexpress #bluemask{background:#4195aa}
+.lib_puntoexpress #frameless{padding:0}
+.lib_puntoexpress #frameless .tclose{left:6px}
+.lib_puntoexpress [class*="span"]{float:left;min-height:1px;margin-left:20px}
+.lib_puntoexpress .span12{width:940px}
+.lib_puntoexpress .span11{width:860px}
+.lib_puntoexpress .span10{width:780px}
+.lib_puntoexpress .span9{width:700px}
+.lib_puntoexpress .span8{width:620px}
+.lib_puntoexpress .span7{width:540px}
+.lib_puntoexpress .span6{width:460px}
+.lib_puntoexpress .span5{width:380px}
+.lib_puntoexpress .span4{width:300px}
+.lib_puntoexpress .span3{width:220px}
+.lib_puntoexpress .span2{width:140px}
+.lib_puntoexpress .span1{width:60px}
+.lib_puntoexpress .row-fluid{width:100%;*zoom:1}
+.lib_puntoexpress .row-fluid:before,.row-fluid:after{display:table;line-height:0;content:""}
+.lib_puntoexpress .row-fluid:after{clear:both}
+.lib_puntoexpress .row-fluid [class*="span"]{display:block;float:left;width:100%;min-height:30px;margin-left:2.127659574468085%;*margin-left:2.074468085106383%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.lib_puntoexpress .row-fluid [class*="span"]:first-child{margin-left:0}
+.lib_puntoexpress .row-fluid .controls-row [class*="span"]+[class*="span"]{margin-left:2.127659574468085%}
+.lib_puntoexpress .row-fluid .span12{width:100%;*width:99.94680851063829%}
+.lib_puntoexpress .row-fluid .span11{width:91.48936170212765%;*width:91.43617021276594%}
+.lib_puntoexpress .row-fluid .span10{width:82.97872340425532%;*width:82.92553191489361%}
+.lib_puntoexpress .row-fluid .span9{width:74.46808510638297%;*width:74.41489361702126%}
+.lib_puntoexpress .row-fluid .span8{width:65.95744680851064%;*width:65.90425531914893%}
+.lib_puntoexpress .row-fluid .span7{width:57.44680851063829%;*width:57.39361702127659%}
+.lib_puntoexpress .row-fluid .span6{width:48.93617021276595%;*width:48.88297872340425%}
+.lib_puntoexpress .row-fluid .span5{width:40.42553191489362%;*width:40.37234042553192%}
+.lib_puntoexpress .row-fluid .span4{width:31.914893617021278%;*width:31.861702127659576%}
+.lib_puntoexpress .row-fluid .span3{width:23.404255319148934%;*width:23.351063829787233%}
+.lib_puntoexpress .row-fluid .span2{width:14.893617021276595%;*width:14.840425531914894%}
+.lib_puntoexpress .row-fluid .span1{width:6.382978723404255%;*width:6.329787234042553%}
+.lib_puntoexpress [class*="span"].hide,.row-fluid [class*="span"].hide{display:none}
+.lib_puntoexpress [class*="span"].pull-right,.row-fluid [class*="span"].pull-right{float:right}
+.lib_puntoexpress .container-fluid{padding-right:20px;padding-left:20px;*zoom:1}
+.lib_puntoexpress .container-fluid:before,.container-fluid:after{display:table;line-height:0;content:""}
+.lib_puntoexpress .container-fluid:after{clear:both}
+.lib_puntoexpress .pexStyle p{margin:0 0 10px}
+.lib_puntoexpress .pexStyle h1,h2,h3,h4,h5,h6{margin:10px 0;font-family:inherit;font-weight:bold;line-height:20px;color:inherit;text-rendering:optimizelegibility}
+.lib_puntoexpress .pexStyle h1,h2,h3{line-height:40px}
+.lib_puntoexpress .pexStyle h1{font-size:38.5px}
+.lib_puntoexpress .pexStyle h2{font-size:31.5px}
+.lib_puntoexpress .pexStyle h3{font-size:24.5px}
+.lib_puntoexpress .pexStyle h4{font-size:17.5px}
+.lib_puntoexpress .pexStyle h5{font-size:14px}
+.lib_puntoexpress .pexStyle h6{font-size:11.9px}
+.lib_puntoexpress .pexStyle hr{margin:20px 0;border:0;border-top:1px solid #eee;border-bottom:1px solid #fff}
+.lib_puntoexpress [class^="icon-"],[class*=" icon-"]{display:inline-block;width:14px;height:14px;margin-top:1px;*margin-right:.3em;line-height:14px;vertical-align:text-top;background-image:url("http://desa.api-services.puntoxpress.com:8888/PEXTokenServices/img/glyphicons-halflings.png");background-position:14px 14px;background-repeat:no-repeat}
+.lib_puntoexpress .icon-white{background-image:url("http://desa.api-services.puntoxpress.com:8888/PEXTokenServices/img/glyphicons-halflings-white.png")}
+.lib_puntoexpress .icon-print{background-position:-96px -48px}
+.lib_puntoexpress .icon-remove-circle{background-position:-168px -96px}
+.lib_puntoexpress .btn{display:inline-block;*display:inline;padding:4px 12px;margin-bottom:0;*margin-left:.3em;font-size:14px;line-height:20px;*line-height:20px;color:#333;text-align:center;text-shadow:0 1px 1px rgba(255,255,255,0.75);vertical-align:middle;cursor:pointer;background-color:#f5f5f5;*background-color:#e6e6e6;background-image:-moz-linear-gradient(top,#fff,#e6e6e6);background-image:-webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));background-image:-webkit-linear-gradient(top,#fff,#e6e6e6);background-image:-o-linear-gradient(top,#fff,#e6e6e6);background-image:linear-gradient(to bottom,#fff,#e6e6e6);background-repeat:repeat-x;border:1px solid #bbb;*border:0;border-color:#e6e6e6 #e6e6e6 #bfbfbf;border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);border-bottom-color:#a2a2a2;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);*zoom:1;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05)}
+.lib_puntoexpress .btn:hover,.btn:active,.btn.active,.btn.disabled,.btn[disabled]{color:#333;background-color:#e6e6e6;*background-color:#d9d9d9}
+.lib_puntoexpress .btn:active,.btn.active{background-color:#ccc \9}
+.lib_puntoexpress .btn:first-child{*margin-left:0}
+.lib_puntoexpress .btn:hover{color:#333;text-decoration:none;background-color:#e6e6e6;*background-color:#d9d9d9;background-position:0 -15px;-webkit-transition:background-position .1s linear;-moz-transition:background-position .1s linear;-o-transition:background-position .1s linear;transition:background-position .1s linear}
+.lib_puntoexpress .btn:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
+.lib_puntoexpress .btn.active,.btn:active{background-color:#e6e6e6;background-color:#d9d9d9 \9;background-image:none;outline:0;-webkit-box-shadow:inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);-moz-box-shadow:inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);box-shadow:inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05)}
+.lib_puntoexpress .btn.disabled,.btn[disabled]{cursor:default;background-color:#e6e6e6;background-image:none;opacity:.65;filter:alpha(opacity=65);-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}
+.lib_puntoexpress .btn-large{padding:11px 19px;font-size:17.5px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}
+.lib_puntoexpress .btn-large [class^="icon-"],.btn-large [class*=" icon-"]{margin-top:2px}
+.lib_puntoexpress .btn-small{padding:2px 10px;font-size:11.9px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}
+.lib_puntoexpress .btn-small [class^="icon-"],.btn-small [class*=" icon-"]{margin-top:0}
+.lib_puntoexpress .btn-primary.active,.btn-danger.active{color:rgba(255,255,255,0.75)}
+.lib_puntoexpress .btn{border-color:#c5c5c5;border-color:rgba(0,0,0,0.15) rgba(0,0,0,0.15) rgba(0,0,0,0.25)}
+.lib_puntoexpress .btn-primary{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25);background-color:#006dcc;*background-color:#04c;background-image:-moz-linear-gradient(top,#08c,#04c);background-image:-webkit-gradient(linear,0 0,0 100%,from(#08c),to(#04c));background-image:-webkit-linear-gradient(top,#08c,#04c);background-image:-o-linear-gradient(top,#08c,#04c);background-image:linear-gradient(to bottom,#08c,#04c);background-repeat:repeat-x;border-color:#04c #04c #002a80;border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0044cc',GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}
+.lib_puntoexpress .btn-primary:hover,.btn-primary:active,.btn-primary.active,.btn-primary.disabled,.btn-primary[disabled]{color:#fff;background-color:#04c;*background-color:#003bb3}
+.lib_puntoexpress .btn-primary:active,.btn-primary.active{background-color:#039 \9}
+.lib_puntoexpress .btn-danger{background-color:#da4f49;*background-color:#bd362f;background-image:-moz-linear-gradient(top,#ee5f5b,#bd362f);background-image:-webkit-gradient(linear,0 0,0 100%,from(#ee5f5b),to(#bd362f));background-image:-webkit-linear-gradient(top,#ee5f5b,#bd362f);background-image:-o-linear-gradient(top,#ee5f5b,#bd362f);background-image:linear-gradient(to bottom,#ee5f5b,#bd362f);background-repeat:repeat-x;border-color:#bd362f #bd362f #802420;border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b',endColorstr='#ffbd362f',GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false)}
+.lib_puntoexpress .btn-danger a{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25);}
+.lib_puntoexpress .btn-danger a:hover,.btn-danger:active,.btn-danger.active,.btn-danger.disabled,.btn-danger[disabled]{color:#fff;background-color:#bd362f;*background-color:#a9302a}
+.lib_puntoexpress .btn-danger a:active,.btn-danger.active{background-color:#942a25 \9}
+.lib_puntoexpress button.btn,input[type="submit"].btn{*padding-top:3px;*padding-bottom:3px}
+.lib_puntoexpress button.btn::-moz-focus-inner,input[type="submit"].btn::-moz-focus-inner{padding:0;border:0}
+.lib_puntoexpress button.btn.btn-small,input[type="submit"].btn.btn-small{*padding-top:3px;*padding-bottom:3px}
+
+
+.lib_puntoexpress .font-title{color:#3a87ad}
+.lib_puntoexpress .font-resalt{-webkit-border-radius:5px;
+             -moz-border-radius:5px;
+             border-radius:5px;
+             margin:0 0 0 5px;
+             padding:5px 12px;
+             font-weight:normal;
+             color:#171717;
+             font-size:16px;
+             letter-spacing:-1px;
+             background:#ffee9f;
+             border:1px solid #ffe25f;
+             display:inline
+}
+
+.lib_puntoexpress .font-size12 {
+    font-size:12pt;
+}
+.lib_puntoexpress .font-size13 {
+    font-size:13pt;
+}
+
+.lib_puntoexpress .font-size14 {
+    font-size:14pt;
+}
+
+.lib_puntoexpress .font-size15 {
+    font-size:15pt;
+}
+.lib_puntoexpress .font-size16 {
+    font-size:16pt;
+}
+
+.lib_puntoexpress .font-size17 {
+    font-size:17pt;
+}
+
+.lib_puntoexpress .font-size18 {
+    font-size:18pt;
+}
+
+.lib_puntoexpress .font-size19 {
+    font-size:19pt;
+}
+
+.lib_puntoexpress .font-size20 {
+    font-size:20pt;
+}
+.lib_puntoexpress .alert {
+    background-color: #FCF8E3;
+    border: 2px solid #FBEED5;
+    border-radius: 4px 4px 4px 4px;
+    color: #C09853;
+    /*    margin-bottom: 10px;*/
+    padding: 8px 8px 8px 8px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.lib_puntoexpress .alert-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.lib_puntoexpress .badge {
+    font-size: 11.844px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #999999;
+}
+.lib_puntoexpress .badge {
+    padding: 1px 9px 2px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+.lib_puntoexpress .badge-warning {
+    background-color: #f89406;
+}

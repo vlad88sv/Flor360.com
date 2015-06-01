@@ -1,0 +1,58 @@
+body {background:none;} 
+
+h1{color:#000;}
+h2 {background-color:#EDF7FF;color:#000000;}
+
+#btn_comprar_ahora {background-color:#9B9B9B;}
+
+ul.dropdown{background-color:#FFFFFF;}
+ul.dropdown li:hover {background-color:#DBDBDB}
+ul.dropdown li a {color:#000000;}
+ul.dropdown li a:hover {color:#000000;}
+
+.categoria-elemento-clic-aqui {background-color:#555;color:#FFF;opacity: 0.8;right:0px;}
+
+span.li
+{
+  background:url(../IMG/stock/span_flor_3.gif) left no-repeat;
+  padding-left:15px;
+}
+
+a.pestaña
+{
+  text-decoration: none;
+  background-color:grey;
+  width:73px;
+  height:28px;
+  line-height:28px;
+  display:inline-block;
+  color: white;
+  border-width: 1px 1px 0;
+  border-color: #ababab;
+  border-style: solid;
+  border-radius:  8px 8px 0px 0px;
+  padding: 0 6px;
+  text-align:center;
+  margin:0px 4px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+a.pestaña:hover
+{
+ text-decoration: none;
+ opacity: 0.8;
+}
+
+a.pestana_sel
+{
+    font-style: italic;
+    font-size:1.6em;
+    border-width: 2px 2px 0;
+    border-color: black;
+    height:38px;
+}
+
+#chat {
+    background-color: #D3D3D3;
+}
