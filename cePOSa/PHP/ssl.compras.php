@@ -489,15 +489,15 @@ if (date('G') > 15)
     $minDate = 1;
 
 // Mandar al siguiente dia si es Domingo sin importar la hora
-//if (date('N') == 7)
-//    $minDate = 1;
+if (date('N') == 7)
+    $minDate = 1;
 
 // Mandar al siguiente Lunes si es Sábado y arriba de las 11:00a.m.
-//if (date('N') == 6 && date('G') > 11)
-//    $minDate = 1;
+if (date('N') == 6 && date('G') > 11)
+    $minDate = 2;
 
 // Descomentar para anular el día actual    
- //$minDate = 'new Date('. (strtotime('+1 day') * 1000) .')';
+///$minDate = 'new Date('. (strtotime('+1 day') * 1000) .')';
 
 
 echo '<script type="text/javascript">precio = '.$precio_sin_formato.';</script>';
