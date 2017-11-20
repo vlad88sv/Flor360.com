@@ -8,7 +8,7 @@
     }
 
     // Primero obtenemos toda la información del contenedor
-    $cContenedor = sprintf('SELECT `codigo_producto`, `titulo`, `descripcion`, `vistas`, `descontinuado` FROM `%s` WHERE codigo_producto="%s" LIMIT 1',db_prefijo.'producto_contenedor',db_codex($_GET['codigo_contenedor']));
+    $cContenedor = sprintf('SELECT `codigo_producto`, `titulo`, `descripcion`, `vistas`, `descontinuado`, `horizontal` FROM `%s` WHERE codigo_producto="%s" LIMIT 1',db_prefijo.'producto_contenedor',db_codex($_GET['codigo_contenedor']));
     $rContenedor = db_consultar($cContenedor);
 
     // Comprobación extendida: cancelar si no se encontró...
@@ -102,6 +102,10 @@
     $bCategoria.= '</div>';
     $bCategoria.= SI_ADMIN(BR.'<form class="administracion" action="'.PROY_URL_ACTUAL.'" method="POST">'.flores_db_ui_obtener_categorias_chkbox('chk_agregar_categoria',$contenedor['codigo_producto']).ui_input('btn_agregar_categoria_v2','Agregar','submit','btnlnk').'</form>');
 
+	if ( (int) $contenedor['horizontal'] === 1 ) {
+		$modoHorizontal = true;
+		$arrCSS[] = 'CSS/estilo.horizontal';
+	}
 
     /*************** variedades ********************************************/
     // Luego obtenemos toda la información de sus variedades

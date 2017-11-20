@@ -468,7 +468,7 @@ echo '</form>';
 
 global $GLOBAL_MOSTRAR_PIE;
 $GLOBAL_MOSTRAR_PIE = false;
-
+	
 $defaultDate = 'new Date('. (time() * 1000) .')';
 
 if (!empty($_POST['txt_fecha_entrega']))
@@ -497,13 +497,13 @@ if (date('N') == 6 && date('G') > 11)
     $minDate = 2;
 
 // Descomentar para anular el día actual    
-///$minDate = 'new Date('. (strtotime('+1 day') * 1000) .')';
+//    $minDate = 1;
 
 
 echo '<script type="text/javascript">precio = '.$precio_sin_formato.';</script>';
 
 // Días cerrado
-$cDC = 'SELECT dia, DAY(dia) AS fdia, MONTH(dia) AS fmes, YEAR(dia) AS fano FROM `dias_cerrados` WHERE dia <= (NOW() + INTERVAL 30 DAY) ORDER BY dia ASC';
+$cDC = 'SELECT dia, DAY(dia) AS fdia, MONTH(dia) AS fmes, YEAR(dia) AS fano FROM `dias_cerrados` WHERE dia <= (NOW() + INTERVAL 60 DAY) ORDER BY dia ASC';
 $rDC = db_consultar($cDC);
 
 if ($rDC)
@@ -520,7 +520,7 @@ if ($rDC)
     }
 }
 
-$constructor_datepicker = '$("#div_fecha_entrega").datepicker({ defaultDate: '.$defaultDate.', inline:true, numberOfMonths: 1, beforeShowDay: nonWorkingDates,  maxDate: "+30D", minDate: '.$minDate.', constrainInput: true, dateFormat : "DD dd \'de\' MM \'de\' yy", altField : "#txt_fecha_entrega", onSelect: ActualizarPrecio});';
+$constructor_datepicker = '$("#div_fecha_entrega").datepicker({ defaultDate: '.$defaultDate.', inline:true, numberOfMonths: 1, beforeShowDay: nonWorkingDates,  maxDate: "+60D", minDate: '.$minDate.', constrainInput: true, dateFormat : "DD dd \'de\' MM \'de\' yy", altField : "#txt_fecha_entrega", onSelect: ActualizarPrecio});';
 ?>
 <script type="text/javascript">
 function nonWorkingDates(date){
@@ -535,7 +535,7 @@ function nonWorkingDates(date){
         }
     }
     
-    <?php if (1 || S_iniciado()): ?>
+    <?php if (S_iniciado()): ?>
     return [true];
     <?php else: ?>
     return [day != Sunday, ""];

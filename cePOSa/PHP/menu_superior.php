@@ -21,7 +21,7 @@
 <?php endif; ?>
 <?php
 // Menues dinamicos
-if (apc_exists(PROY_NOMBRE_CORTO.'menu')){
+if (0 && apc_exists(PROY_NOMBRE_CORTO.'menu')){
     $menu = apc_fetch(PROY_NOMBRE_CORTO.'menu');
     echo '<!-- APC MENU !-->';
 } else {
@@ -40,7 +40,8 @@ $bmenu = '';
 
 echo '<ul id="nav" class="dropdown dropdown-horizontal">'."\n";
 
-//echo '<li class="dir lidestacado" style="background-color:#F00;"><a href="categoria-valentines-36.html?orden=color&valor=Rojo" title="Especial de San Valentin!"><span class="blink">Valentines</span><img style="vertical-align: middle;" src="IMG/stock/cupido.png" /></a></li>';
+echo '<li class="dir lidestacado" style="background-color:#F00;"><a href="categoria-canastas2015-especial.html" title="Especial de Navidad"><span class="blink2">Canastas</span><img style="vertical-align: middle;" src="IMG/stock/santa.png" /></a></li>';
+//echo '<li class="dir lidestacado" style=""><a href="categoria-valentines-36.html?orden=color&valor=Rojo" title="Especial de San Valentin!"><span class="">Valentines</span><img style="vertical-align: middle;" src="IMG/stock/cupido.png" /></a></li>';
 
 //echo '<li class="dir lidestacado" style="background-color:#A00;"><a style="color:#FFF" href="categoria-dia-de-la-madre-47.html" title="Especial del Día de la Madre!"><span class="blink">Día de la Madre</span></a></li>';
 //echo '<li class="dir lidestacado" style="background-color:#A00;"><a style="color:#FFF" href="/categoria-dia-de-la-madre-48.html" title="Especial del Día de la Madre!"><span class="blink">Mom\'s special</span></a></li>';

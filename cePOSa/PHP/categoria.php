@@ -26,7 +26,8 @@
     $CAMPOS[] = 'pc.creacion';
     $CAMPOS[] = 'cat.codigo_categoria';
     $CAMPOS[] = 'cat.titulo AS "titulo_categoria"';
-
+    $CAMPOS[] = 'pc.horizontal';
+    
     // Obtenemos el modo de operacion
     // Superior = mostrar todos los tipo/categoria/especial que pertenezcan al menu
     // Normal (por defecto) = mostrar los productos dentro del codigo_categoria seleccionado
@@ -70,7 +71,7 @@
     }
     elseif (isset($_GET['modo']) && $_GET['modo'] == 'filtro')
     {
-        $c = sprintf('SELECT nombre_filtro, filtro_sql, descripcion_filtro FROM %s WHERE nombre_filtro="%s"',db_prefijo.'filtros',db_codex($_GET['codigo_categoria']));
+        $c = sprintf('SELECT nombre_filtro, filtro_sql, order_sql, descripcion_filtro FROM %s WHERE nombre_filtro="%s"',db_prefijo.'filtros',db_codex($_GET['codigo_categoria']));
         $FILTRO = mysqli_fetch_assoc(db_consultar($c));
         if (empty($FILTRO['filtro_sql']))
         {
@@ -171,6 +172,12 @@
             $ORDER_BY = '(COS(codigo_producto*(curdate()+0))) ASC';
             //$ORDER_BY = 'RAND(curdate()+0)';
     }
+
+    if (!empty($FILTRO['order_sql']))
+    {
+	$ORDER_BY = $FILTRO['order_sql'];
+    }
+
     
     $bELEMENTOS = '';
 
