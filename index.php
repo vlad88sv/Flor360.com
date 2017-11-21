@@ -1,7 +1,7 @@
 <?php
 $__BENCH__['start'] = microtime(true);
 
-require_once('/usr/share/php/FirePHPCore/FirePHP.class.php');
+require_once('vendor/autoload.php');
 $firephp = FirePHP::getInstance(true);
 $firephp->registerErrorHandler($throwErrorExceptions=false);
 $firephp->registerExceptionHandler();

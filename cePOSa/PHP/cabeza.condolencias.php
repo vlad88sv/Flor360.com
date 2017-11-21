@@ -1,9 +1,9 @@
 <?php if (!isset($_GET['sin_cabeza'])): ?>
 <div style="text-align:center;z-index:1000;position:absolute;height: 100px;width: 100%;">
     <div style="width:1000px;margin:auto;position: relative;">
-        <a href="http://flor360.com" style="position:absolute;left:20px;top:29px;"><img src="/IMG/portada/pestana_flor360.png" /></a>
+        <a href="http://flor360.com" style="position:absolute;left:20px;top:29px;"><img src="<?php echo PROY_URL_ESTATICA; ?>/IMG/portada/pestana_flor360.png" /></a>
         <a href="/">
-            <img style="position:absolute;left:195px;top:29px;" src="/IMG/portada/pestana_grande.png" />
+            <img style="position:absolute;left:195px;top:29px;" src="<?php echo PROY_URL_ESTATICA; ?>/IMG/portada/pestana_grande.png" />
             <img style="position:absolute;left:203px;top:43px;" src="/IMG/portada/logo_condolencias.png" alt="Condolencias Logo"/>
         </a>
         

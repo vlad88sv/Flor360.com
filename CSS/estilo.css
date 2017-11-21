@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'KGTenThousandReasons'; /*a name to be used later*/
+  src: url('../estatico/KGTenThousandReasons.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'KGTenThousandReasonsAlt'; /*a name to be used later*/
+    src: url('../estatico/KGTenThousandReasonsAlt.ttf'); /*URL to font*/
+}
+
 html,body
 {
   border:0;
@@ -9,16 +19,11 @@ html,body
 
 body
 {
-  background:url(../IMG/stock/fondo-valentine.png) top repeat;
-  font-family:Arial, sans-serif;
+  background: white;
+  font-family:KGTenThousandReasonsAlt, Arial, sans-serif;
   font-size:10px;
   text-align:center;
 }
-
-/*prueba*/
-body{background:url('../IMG/stock/fondo-valentine.png') #FFFFFF top repeat !important;}
-h1{background-color:#FFF;color:#af3a30;}
-h2 {background-color:#be2618;color:#FFF;}
 
 #btn_comprar_ahora {background-color:#af3a30;}
 

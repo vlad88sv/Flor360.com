@@ -1,7 +1,10 @@
 <?php
-$memcache = new Memcached();
-$memcache -> addServer('127.0.0.1', 11211);
+$memcache = null;
 
+if (MEMCACHE_ACTIVO) {
+    $memcache = new Memcached();
+    $memcache -> addServer('127.0.0.1', 11211);
+}
 // Usar solamente en scripts que no procesen post
 function memcache_iniciar($contexto,$discriminador='')
 {
