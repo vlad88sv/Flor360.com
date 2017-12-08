@@ -1,91 +1,14 @@
-<?php if ( !S_iniciado()): ?>
-<script type="text/javascript">
-    setTimeout(function(){
-        $("nav.dropdown li:eq(1)").qtip({show: {event: false, ready: true}, content: {text: '<p style="color:red;font-weight:bold;font-size:1.2em;">Ver nuestro catálogo</p>'}, style: {classes: "ui-tooltip-shadow ui-tooltip-cream ui-tooltip-shadow", tip: "top left"}, position: {my: "top left",at: "bottom center"}});
-    }, 1000);
-    
-    setTimeout(function(){
-        $("#busqueda").qtip({show: {event: false, ready: true}, content: {text: '<p style="color:red;font-weight:bold;font-size:1.2em;">Búscar arreglos</p>'}, style: {classes: "ui-tooltip-shadow ui-tooltip-cream ui-tooltip-shadow", tip: "top right"}, position: {my: "top right",at: "bottom center"}});
-    }, 2000);
-</script>
-<?php endif; ?>
-<map name="map">
-<!-- #$-:Image map file created by GIMP Image Map plug-in -->
-<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
-<!-- #$-:Please do not edit lines starting with "#$" -->
-<!-- #$VERSION:2.3 -->
-<!-- #$AUTHOR:Vladimir Hidalgo -->
-<area shape="rect" coords="30,32,141,65" alt="Rosas" href="/categoria-rosas-2.html" />
-<area shape="rect" coords="120,90,224,134" alt="Amor" href="/categoria-amor-4.html" />
-<area shape="rect" coords="17,137,120,175" alt="Felicitaciones" href="/categoria-felicitaciones-9.html" />
-<area shape="rect" coords="125,184,288,230" alt="Simpatia - Condolencias" href="/categoria-condolencias-15.html" />
-<area shape="rect" coords="231,6,344,32" alt="Lo siento" href="/categoria-lo-siento-12.html" />
-<area shape="rect" coords="179,44,329,89" alt="Aniversario" href="/categoria-aniversario-8.html" />
-<area shape="rect" coords="536,4,640,35" alt="Ofertas" href="/categoria-superior-arreglos-1.html?refinado=solo_ofertas" />
-<area shape="rect" coords="604,65,722,95" alt="Romance - Amistad" href="/categoria-amistad-5.html" />
-<area shape="rect" coords="646,151,770,190" alt="Recién nacido" href="/categoria-recien-nacido-14.html" />
-<area shape="rect" coords="595,222,695,259" alt="Agradecimientos" href="/categoria-agradecimientos-16.html" />
-<area shape="rect" coords="676,11,888,48" alt="Solo porque si" href="/categoria-solo-porque-si-13.html" />
-<area shape="rect" coords="758,211,919,245" alt="Solo porque si" href="/categoria-solo-porque-si-13.html" />
-<area shape="rect" coords="730,98,891,140" alt="Te extraño!" href="/categoria-valentines-36.html" />
-</map>
-<?php
-$IMG_CENTRAL = '<div style="text-align:center;"><a href="categoria-superior-arreglos-1.html"><img width="939" height="264" usemap="#map" src="'.PROY_URL_ESTATICA.'IMG/portada/nov12_portada.jpg"/></a></div>';
-//$IMG_CENTRAL = '<div style="text-align:center;"><a href="categoria-superior-arreglos-1.html"><img width="800" height="259" usemap="#map" src="'.PROY_URL_ESTATICA.'IMG/portada/may10_portada.jpg"/></a></div>';
-
-// Valentines:
-//$IMG_CENTRAL = '<div style="text-align:center;"><a href="'.PROY_URL.'categoria-valentines-36.html?orden=color&valor=Rojo"><img width="939" height="330" src="'.PROY_URL_ESTATICA.'IMG/portada/feb13_portada.jpg"/></a></div>';
-
-//Array de Blobs
-$ab = array(
-'Amor' => 'categoria-amor-4.html',
-'Amistad' => 'categoria-amistad-5.html',
-'Cumpleaños' => 'categoria-amistad-5.html',
-'Condolencias' => 'categoria-condolencias-15.html',
-'Recien Nacido' => 'categoria-recien-nacido-14.html',
-
-'Regalos Corporativos' => 'categoria-regalos-corporativos-10.html',
-'Mejorate pronto' => 'categoria-mejorate-pronto-11.html',
-'Lo Siento' => 'categoria-lo-siento-12.html',
-'Graduación' => 'categoria-graduacion-43.html',
-'Agradecimientos' => 'categoria-agradecimientos-16.html',
-
-'Felicitaciones' => 'categoria-felicitaciones-9.html',
-'Regalos Para Hombre' => 'categoria-regalos-para-hombre-44.html',
-'Globos' => 'categoria-superior-globos-6.html',
-'Bouquets' => 'categoria-bouquet-42.html',
-'Centros de Mesa' => 'categoria-centro-de-mesa-37.html'
-);
-
-$conteo = 0;
-$blobs = '';
-foreach ($ab as $categoria => $enlace)
-{
-    $blobs .= '<div class="blob"><a class="imagen" href="'.$enlace.'">';
-    $blobs .= '<div class="titulo">'.$categoria;
-    $blobs .= '<img title="'.$categoria.'" alt="'.$categoria.'" src="'.PROY_URL_ESTATICA.'/IMG/blob/'.$conteo.'.jpg" />';
-    $blobs .= '</div></a></div>';
-    $conteo++;
-}
-?>
-<?php echo $IMG_CENTRAL; ?>
-<p class="portada_info" style="width:930px;padding:4px; margin: 2px auto;text-align:center;">
-Flor360.com es la mas destacada entre las <span style="font-weight:bold;">Floristerias El Salvador</span> ya que contamos con diseños florales exclusivos para enviar <span style="font-weight:bold;">Flores a El Salvador</span> y <span style="font-weight:bold;">Regalos a El Salvador</span>.<br />
-Are you an international costumer looking to <span style="font-weight:bold;">send present for birthday, valentine, congratulations</span>?, don't worry, you can send flowers to El Salvador contact us at <a class="bloque" href="mailto:info@flor360.com">info@flor360.com</a>.
-</p>
-
-<p class="portada_info" style="width:930px;padding:4px; margin: 2px auto;text-align:center;">
-Visita nuestra <a class="bloque" target="_blank" href="https://www.facebook.com/floristeria.flor360" rel="nofollow">Fan Page de Facebook</a>&nbsp;
-o siguenos en nuestra <a class="bloque" target="_blank" href="http://twitter.com/flor360" rel="nofollow">cuenta de Twitter</a>.
-Teléfonos: PBX <b><?php echo PROY_TELEFONO_PRINCIPAL; ?></b> - Kiosko La Gran Vía: <b><?php echo PROY_TELEFONO_SECUNDARIO; ?></b>.
-<a class="bloque" href="http://blog.flor360.com/" target="_blank">Acerca de Flor360.com</a>
-</p>
-
-<div id="blobs">
-    <?php echo $blobs; ?>
-</div>
-
-<div class="fondo_defecto" style="padding:12px;"></div>
+<table style="table-layout: fixed;width: 100%;">
+    <tr style="color:white; font-size:1.4em;">
+        <td style="vertical-align: middle;text-align: left;padding-left: 10px;">
+            <img style="width: 450px;" src="IMG/portada/pp1.jpg"
+        </td>
+        <td style="vertical-align: middle;text-align: right;padding-right: 10px;">
+            <img style="width: 450px;" src="IMG/portada/pp2.jpg"
+        </td>
+    </tr>
+</table>
+<hr />
 
 <p style="text-align: center; margin: 10px 0;">© 2010 FLOR360.COM - Floristerias El Salvador® - <strong><?php echo PROY_TELEFONO_PRINCIPAL; ?></strong> - <a href="ayuda?tema=terminos_y_condiciones">terminos y condiciones</a>
 
