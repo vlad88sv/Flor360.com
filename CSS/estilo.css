@@ -1559,3 +1559,25 @@ select#orden_color, select#orden_color option{
   background-color:#e18522;
   color:white;
 }
+
+.Chevron{
+    position:relative;
+    display:block;
+    height:50px;/*height should be double border*/
+}
+.Chevron:before,
+.Chevron:after{
+    position:absolute;
+    display:block;
+    content:"";
+    border:25px solid transparent;/*adjust size*/
+}
+/*Change four 'top' values below to rotate (top/right/bottom/left)*/
+.Chevron:before{
+    top:0;
+    border-top-color:#FFF;/*Chevron Color*/
+}
+.Chevron:after{
+    top:-10px;/*adjust thickness*/
+    border-top-color:#FFF;/*Match background colour*/
+}

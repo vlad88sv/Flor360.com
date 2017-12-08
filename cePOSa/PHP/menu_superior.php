@@ -1,25 +1,60 @@
 <?php if ( defined('NO_MENU') ) return; ?>
 <?php if (!isset($_GET['fb'])): ?>
-    <div style="height:53px;position: relative;text-align:center;">
-	<div style="position:absolute;margin:auto;width:1000px;height:100%;text-align: right;font-style:italic;color:#3a3a3a;">
-	    <table style="position:absolute;right:0px;border-collapse:collapse;">
-	    <tr>
-		<td style="text-align:center;width:90px;">Compra en línea</td>
-		<td style="text-align:center;width:160px;">Compra por teléfono</td>
-		<td style="text-align:center;width:150px;">Compra en nuestra sucursal</td>
-	    </tr>
-	    <tr>
-		<td style="text-align:center;color:#4ca249;"><div style="height:25px;width:50px;border:2px solid #fea3c4;border-radius:50px / 25px;margin:auto;">Las 24<br />Horas</div></td>
-		<td style="text-align:center;color:#ea9d4d;">Lúnes-Viernes 8am-8pm<br />Sábado-Domingo 12md-9pm</td>
-		<td style="text-align:center;color:#4ca249;">Domingo-Jueves 11am-8pm<br />Viernes-Sábado 12md-9pm</td>
-	    </tr>
-	    </table>
-	</div>
+    <div style="height:220px;position: relative;text-align:center;">
+        <table style="width: 100%;height:100%;table-layout: fixed;">
+            <tr>
+                <td style="vertical-align: bottom;text-align: left;padding-left: 30px;">
+                    <div>
+                        <img style="line-height: 32px; vertical-align: middle;" src="<?php echo PROY_URL_ESTATICA; ?>IMG/portada/rosa.png" alt="Rosa"/>
+                        <span style="font-size:1.4em;">TEL; (503) 2278-8391 ; (503) 2243-6017</span>
+                    </div>
+                    <div>
+                        <img style="line-height: 32px; vertical-align: middle;" src="<?php echo PROY_URL_ESTATICA; ?>IMG/portada/rosa.png" alt="Rosa"/>
+                        <span style="font-size:1.4em;">CONTACTANOS</span>
+                    </div>
+                    <div>
+                        <img style="line-height: 32px; vertical-align: middle;" src="<?php echo PROY_URL_ESTATICA; ?>IMG/portada/rosa.png" alt="Rosa"/>
+                        <span style="font-size:1.4em;">POLITICAS DE ENTREGA</span>
+                    </div>
+                </td>
+                <td style="vertical-align: center;">
+                    <img src="<?php echo PROY_URL_ESTATICA; ?>IMG/portada/logo2.png" alt="Flor360.com Logo"/>
+                </td>
+                <td style="vertical-align: bottom;text-align: right;padding-right: 30px;">
+                    <div>
+                        <img src="<?php echo PROY_URL_ESTATICA; ?>IMG/portada/lgv.png" alt="Rosa"/>
+                    </div>
+                    <br />
+                    <div>
+                        <span style="font-size:1.4em;">FORMAS DE PAGO</span>
+                        <img style="line-height: 32px; vertical-align: middle;" src="<?php echo PROY_URL_ESTATICA; ?>IMG/portada/rosa.png" alt="Rosa"/>
+                    </div>
+                    <div>
+                        <span style="font-size:1.4em;">NUESTROS SERVICIOS</span>
+                        <img style="line-height: 32px; vertical-align: middle;" src="<?php echo PROY_URL_ESTATICA; ?>IMG/portada/rosa.png" alt="Rosa"/>
+                    </div>
+                    <div>
+                        <span style="font-size:1.4em;">COMPRAR</span>
+                        <img style="line-height: 32px; vertical-align: middle;" src="<?php echo PROY_URL_ESTATICA; ?>IMG/portada/rosa.png" alt="Rosa"/>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </div>
 <?php else: ?>
     <a href="<?php echo PROY_URL ?>"><img style="width:810px;height:66px;" src="<?php echo PROY_URL_ESTATICA ?>IMG/portada/superior.fb.png" /></a>
 <?php endif; ?>
+<div style="background-color: #e9333f;height: 50px;">
+<table style="height: 100%;width: 90%; margin: auto; table-layout: fixed;">
+    <tr style="color:white; font-size:1.4em;">
+        <td style="vertical-align: middle;text-align: left;">POR OCASION &#x25BC;</td>
+        <td style="vertical-align: middle;text-align: right;">&#x25BC; POR TIPO DE FLOR</td>
+    </tr>
+</table>
+</div>
+
 <?php
+return;
 // Menues dinamicos
 if (0 && apc_exists(PROY_NOMBRE_CORTO.'menu')){
     $menu = apc_fetch(PROY_NOMBRE_CORTO.'menu');

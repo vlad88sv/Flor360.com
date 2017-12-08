@@ -96,7 +96,7 @@ $buffer .= '
 Atención al cliente '.PROY_NOMBRE_CORTO.'<br />
 Teléfono '.PROY_TELEFONO_PRINCIPAL.'<br />
 </i>
-<img src="http://flor360.com/IMG/portada/logo.png" />
+<img src="http://flor360.com/IMG/portada/logo2.png" />
 </p>
 ';
 
