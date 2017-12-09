@@ -8,6 +8,11 @@
     src: url('../estatico/KGTenThousandReasonsAlt.ttf'); /*URL to font*/
 }
 
+@font-face {
+    font-family: 'AvenirNextCondensed'; /*a name to be used later*/
+    src: url('../estatico/AvenirNextCondensed-Regular.ttf'); /*URL to font*/
+}
+
 html,body
 {
   border:0;
@@ -668,12 +673,36 @@ span.li2
   padding-left:15px;
 }
 
-#pie-pagina p,.medio-oculto,.medio-oculto a
+.medio-oculto,.medio-oculto a
 {
   color:#8a8989;
   font-size:9px;
   font-weight:400;
   margin:0;
+}
+
+.medio-oculto a
+{
+    font-weight:bolder;
+}
+
+
+#pie-pagina td {
+    vertical-align: top;
+}
+
+#pie-pagina p {
+    font-family: AvenirNextCondensed;
+    font-weight: normal;
+    margin:0;
+    font-size: 1.5em;
+    text-align: justify;
+    color: #888888;
+
+}
+
+#pie-pagina a, #pie-pagina .pie-titulo {
+    color: #f5897d;
 }
 
 #wrapper
@@ -1299,11 +1328,6 @@ span.li
 {
   background:url(../IMG/stock/span_flor_2.png) left no-repeat;
   padding-left:15px;
-}
-
-#pie-pagina p,.medio-oculto a
-{
-  font-weight:bolder;
 }
 
 #secc_categorias #ver_categorias,.multichat .ajax_mensajes .enviar
